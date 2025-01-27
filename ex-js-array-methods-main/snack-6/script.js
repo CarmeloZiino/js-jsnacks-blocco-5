@@ -23,8 +23,8 @@ const zucchineLungheStringhe = zucchineLunghe.map(
   (zucchina) => `Tipo: ${zucchina.type}, Lunghezza: ${zucchina.length}cm`
 );
 
-console.log('Zucchine lunghe:');
-zucchineLungheStringhe.forEach((zucchina) => console.log(zucchina));
+console.log(`Zucchine lunghe:  ${zucchineLungheStringhe}`);
+// zucchineLungheStringhe.forEach((zucchina) => console.log(zucchina));
 
 
 //Zuccine Corte
@@ -33,5 +33,4 @@ const zucchineCorteStringhe = zucchineCorte.map(
 );
 
 
-console.log('Zucchine Corte:');
-zucchineCorteStringhe.forEach((zucchina) => console.log(zucchina));
+console.log(`Zucchine corte:  ${zucchineCorteStringhe}`);
