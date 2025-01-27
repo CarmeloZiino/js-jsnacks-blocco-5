@@ -6,4 +6,11 @@ const posts = [
 ]
 
 // Crea un nuovo array coi nomi di tutti gli autori
-// Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
+// Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico'
+
+let authors = posts.map((posts)=> {
+return [posts.author].join("")
+
+});
+
+console.log(`Gli autori dell'array sono: ${authors}`)
